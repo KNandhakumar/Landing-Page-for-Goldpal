@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goldpal.ltd</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="goldpal logo gold with orange.png">
+</head>
+<body>
+   <header>
+       <a href="" class="logo">
+           <img src="goldpal logo gold with orange.png" alt="" class="logo-img">
+           <div>
+               <span>GOLDPAL</span>
+               <span></span>
+           </div>
+       </a>
+       <ul class="menu-list">
+           <li><a href="">Facebook</a></li>
+           <li><a href="">Instagram</a></li>
+           <li><a href="">Linkedin</a></li>
+           <li><a href="">Twitter</a></li>
+       </ul>
+
+       <button class="dropdown-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="35" height="35"><path fill="none" d="M0 0h24v24H0z"/><path d="M16 18v2H5v-2h11zm5-7v2H3v-2h18zm-2-7v2H8V4h11z"/></svg>
+       </button>
+   </header>
+   <ul class="dropdown-menu">
+    <li><a href="">Facebook</a></li>
+    <li><a href="">Instagram</a></li>
+    <li><a href="">Linkedin</a></li>
+    <li><a href="">Twitter</a></li>
+</ul>
+   <section class="start_up">
+    <div>
+      <h1>Make Your Future Bright With</h1>
+      <h1>Goldpal</h1>
+
+      <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora qui quis tempore ipsum officia obcaecati nihil adipisci impedit laborum ex vel et possimus, quasi fugit, cupiditate aut sunt asperiores quibusdam sapiente placeat eveniet laudantium tenetur molestiae. Maxime excepturi provident porro laborum consectetur nobis corporis facere accusamus nihil! Inventore, at non!
+      </p>
+      <button class="glow-on-hover" type="button">Login</button>
+    </div>
+    <div class="img-sec">
+        <img src="Goldpal_Landing_png1-removebg-preview.png" alt="">
+    </div>
+ </section>
+
+ <script>
+     const dropmenu = document.querySelector('ul.dropdown-menu');
+     const dropbtn = document.querySelector('.dropdown-btn');
+
+     dropbtn.addEventListener('click',()=>{
+         dropmenu.classList.toggle('active');
+         dropbtn.classList.toggle('fill')
+     })
+ </script>
+</body>
+</html>
